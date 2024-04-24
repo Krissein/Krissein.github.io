@@ -3,25 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica #6 </title>
+    <title>Practica #6 Manejo de tablas con bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
 </head>
 <body>
     <div class="container">
-        <h2> Manejo de Tablas de Bootsrap </h2>
-    <div class="row">
-    <div class="col-sm-4">
-    <div class="table table-responsive">
-    <div class="table-striped">
-    <div class="table table-hover">
-    </div>    
+        <h2>Manejo de tablas con bootstrap</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Striped</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Num.Control</th>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Especialidad</th>
+                            <th>Semestre</th>
+                            <th>Grupo</th>
+                            <th>Turno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22325061070384</td>
+                            <td>Kris Lopez Marquez</td>
+                            <td>17</td>
+                            <td>Programacion</td>
+                            <td>4to</td>
+                            <td>AVP</td>
+                            <td>Vespertino</td>
+                        </tr>
+                    </tbody>
+                </div>
+            </table>
+            </div>
+            <div class="col-sm-6">
+                <h3>hover</h3>
+                <div class="table-responsive">
+                <table class="table table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th>Num.Control</th>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Especialidad</th>
+                            <th>Semestre</th>
+                            <th>Grupo</th>
+                            <th>Turno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22325061070384</td>
+                            <td>Kris Lopez Marquez</td>
+                            <td>17</td>
+                            <td>Programacion</td>
+                            <td>4to</td>
+                            <td>AVP</td>
+                            <td>Vespertino</td>
+                        </tr>
+                    </tbody>
+                </div>
 
-    </div>    
+            </table>
+        </div>
+            </div>
+            <div class="col-sm-6"></div>
 
-    </div>   
-    </div>   
-    </div>    
+        </div>
     </div>
+    <script src="js/bootstrap.js"></script>
+    <h5> Lopez Marquez Kris 4AVP 22/04/24</h5>
+    
 </body>
 </html>
