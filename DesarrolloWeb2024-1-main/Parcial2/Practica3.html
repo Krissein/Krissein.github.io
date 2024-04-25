@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Acordeones de Bootstrap </title>    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1> Componente Acordeones </h1>
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1>Componente Alerta</h1>
+            <div class="col">
+                <div class="alert alert-primary" role="alert">
+                    You won an iphone XV click here to claim!
+                  </div>
+                  <div class="alert alert-secondary" role="alert">
+                    A simple secondary alert—check it out!
+                  </div>
+                  <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                  </div>
+                  <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+                  <div class="alert alert-warning" role="alert">
+                    A simple warning alert—check it out!
+                  </div>
+                  <div class="alert alert-info" role="alert">
+                    A simple info alert—check it out!
+                  </div>
+                  <div class="alert alert-light" role="alert">
+                    A simple light alert—check it out!
+                  </div>
+                  <div class="alert alert-dark" role="alert">
+                    A simple dark alert—check it out!
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1> Componente Badges </h1>
+            <div class="col">
+                <span class="badge rounded-pill bg-primary">Primary</span>
+                <span class="badge rounded-pill bg-secondary">Secondary</span>
+                <span class="badge rounded-pill bg-success">Success</span>
+                <span class="badge rounded-pill bg-danger">Danger</span>
+                <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+                <span class="badge rounded-pill bg-info text-dark">Info</span>
+                <span class="badge rounded-pill bg-light text-dark">Light</span>
+                <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+        </div>
+        <div class="row">
+            <h1>BreadCrum</h1>
+            <div class="col">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <h1> Componente Button </h1>
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
+        </div>
+        <div class="row">
+            <h1>Componentes Button group </h1>
+            <div class="col">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1> Componente Card </h1>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
